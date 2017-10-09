@@ -1,0 +1,36 @@
+{
+  "name": "homesync.ca",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "NODE_ENV=development nodemon server.js --exec babel-node --presets env",
+    "build": "NODE_ENV=production webpack --config webpack.config.js",
+    "serve": "NODE_ENV=production node dist/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://emaxedon@bitbucket.org/homesyncmtl/homesync.ca.git"
+  },
+  "author": "Edward Maxedon",
+  "license": "MIT",
+  "homepage": "https://github.com/emaxedon/express-mustache-webpack",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.5",
+    "helmet": "^3.8.2",
+    "hogan-express": "^0.5.2",
+    "i18n": "^0.8.3",
+    "mustache": "^2.3.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "nodemon": "^1.12.1",
+    "webpack": "^3.6.0",
+    "webpack-node-externals": "^1.6.0"
+  }
+}
