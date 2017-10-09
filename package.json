@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://emaxedon@bitbucket.org/homesyncmtl/homesync.ca.git"
+    "url": "git+https://github.com/emaxedon/express-mustache-webpack.git"
   },
   "author": "Edward Maxedon",
   "license": "MIT",
